@@ -14,6 +14,7 @@ def get_data(u_input):
     country_data = df[df["location"] == u_input]
     global days, cases, deaths
     days, cases, deaths = country_data["date"], country_data["total_cases"], country_data["total_deaths"]
+    print("Alec Ramdhan")
 
 # Plot the trends
 def display_graph():
