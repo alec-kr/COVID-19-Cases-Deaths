@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-# Import Data From csv
+# Import data from an online CSV file
 try:
     df = pd.read_csv(r"https://covid.ourworldindata.org/data/ecdc/full_data.csv")
 
