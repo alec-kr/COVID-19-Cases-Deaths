@@ -5,9 +5,11 @@ from matplotlib import pyplot as plt
 # Import Data From csv
 df = pd.read_csv(r"https://covid.ourworldindata.org/data/ecdc/full_data.csv")
 
-country = input("Please Enter a Country: ").capitalize()
+country = input("Please Enter a Country: ").title()
 
 # Gather the records related to the specific country
+print("Loading info...")
+
 location = df[df["location"] == country]
 days = location["date"]
 cases = location["total_cases"]
@@ -22,3 +24,5 @@ plt.legend(["Cases","Deaths"])
 plt.xlabel("Days")
 plt.ylabel("# of Cases/Deaths")
 plt.show()
+
+print("Plot closed")
