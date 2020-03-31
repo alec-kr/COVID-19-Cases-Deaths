@@ -19,6 +19,9 @@ def get_data(u_input):
 # Plot the trends
 def display_graph():
     plt.plot(days, cases, color = "blue")
+    
+    plt.xticks(np.arange(min(deaths),max(deaths)+1,7.0),rotation=45)
+
     plt.grid(color="gray")
     plt.title("Line Graph Showing Cases/Deaths for "+user_sel)
     plt.plot(days, deaths, color = "red")
