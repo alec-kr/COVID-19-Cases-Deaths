@@ -18,6 +18,7 @@ def get_data(u_input):
 
 # Plot the trends
 def display_graph():
+    plt.rcParams.update({'font.size': 9})
     plt.plot(days, cases, color = "blue")
     
     plt.xticks(rotation=45)
