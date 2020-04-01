@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
+import mplcursors
 
 # Import data from an online CSV file
 try:
@@ -30,6 +31,7 @@ def display_graph():
     plt.xlabel("Days")
     plt.ylabel("# of Cases/Deaths")
     print("Plot Loaded")
+    mplcursors.cursor(hover = True)
     plt.show()
     print("Plot closed")
 
