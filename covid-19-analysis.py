@@ -21,9 +21,7 @@ def get_data(u_input):
 def display_graph():
     plt.rcParams.update({'font.size': 9})
     plt.plot(days, cases, color = "blue")
-    
     plt.xticks(rotation=45)
-
     plt.grid(color="gray")
     plt.title("Line Graph Showing Cases/Deaths for "+user_sel)
     plt.plot(days, deaths, color = "red")
@@ -31,7 +29,8 @@ def display_graph():
     plt.xlabel("Days")
     plt.ylabel("# of Cases/Deaths")
     print("Plot Loaded")
-    mplcursors.cursor(hover = True)
+    
+    mplcursors.cursor(hover = True) # Add hovering cursor
     plt.show()
     print("Plot closed")
 
