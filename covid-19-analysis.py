@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 import mplcursors
-import math
+# import math
 
 # Import data from an online CSV file
 try:
@@ -20,6 +20,7 @@ def get_data(u_input):
 
 # Plot the trends
 def display_graph():
+    plt.figure(figsize=(15,8))
     plt.rcParams.update({'font.size': 9})
     plt.plot(days, cases, color = "blue")
     plt.xticks(rotation=45)
@@ -27,8 +28,8 @@ def display_graph():
     plt.title("Line Graph Showing Cases/Deaths for "+user_sel)
     plt.plot(days, deaths, color = "red")
     plt.legend(["Cases","Deaths"])
-    yint = range(min(cases), math.ceil(max(cases))+1)
-    plt.yticks(yint)
+    # yint = range(min(cases), math.ceil(max(cases))+1)
+    # plt.yticks(yint)
     plt.xlabel("Days")
     plt.ylabel("# of Cases/Deaths")
     print("Plot Loaded")
