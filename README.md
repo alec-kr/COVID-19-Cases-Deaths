@@ -7,9 +7,8 @@ The number of cases and deaths for a chosen country will be displayed.
 Python 3 must be installed prior to running this code.
 
 ## Packages Used:
-* NumPy
 * pandas
-* Matplotlib 
+* Matplotlib
 * mplcursors
 
 ```sh
@@ -25,7 +24,7 @@ python3 covid19-analysis
 
 You will enter a country of your choice after running the line above
 ```sh
-Please Enter a Country: United States
+Please Enter a Country: Guyana
 ```
 
-A pandas plot will then be generated.
+A pyplot window will be opened showing the visualized data (COVID-19 Cases and Deaths)
