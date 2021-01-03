@@ -8,7 +8,7 @@ NOTE: Python and pandas must be installed prior to running this code.
 Windows:
 
 ```sh
-python COVID19-analysis
+python covid19-analysis
 ```
 
 You will enter a country of your choice after running the line above
