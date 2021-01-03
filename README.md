@@ -12,7 +12,7 @@ Python 3 must be installed prior to running this code.
 * mplcursors
 
 ```sh
-pip3 install numpy pandas matplotlib mplcursors
+pip3 install pandas matplotlib mplcursors
 ```
 
 ## Usage
