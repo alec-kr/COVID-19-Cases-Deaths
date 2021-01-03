@@ -4,7 +4,14 @@ This Python Project aims to produce a simple line graph using pandas - A python 
 The number of cases and deaths for a chosen country will be displayed.
 
 ## Installation
-NOTE: Python and pandas must be installed prior to running this code.
+Python 3 must be installed prior to running this code.
+
+##Packages Used:
+NumPy, pandas, Matplotlib, mplcursors
+
+```sh
+pip3 install numpy pandas matplotlib mplcursors
+```
 
 ## Usage
 Windows/Linux/Mac OS:
