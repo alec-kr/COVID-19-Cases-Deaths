@@ -5,10 +5,12 @@ The number of cases and deaths for a chosen country will be displayed.
 
 ## Installation
 NOTE: Python and pandas must be installed prior to running this code.
-Windows:
+
+## Usage
+Windows/Linux/Mac OS:
 
 ```sh
-python covid19-analysis
+python3 covid19-analysis
 ```
 
 You will enter a country of your choice after running the line above
