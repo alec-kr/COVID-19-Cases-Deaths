@@ -6,8 +6,11 @@ The number of cases and deaths for a chosen country will be displayed.
 ## Installation
 Python 3 must be installed prior to running this code.
 
-##Packages Used:
-NumPy, pandas, Matplotlib, mplcursors
+## Packages Used:
+* NumPy
+* pandas
+* Matplotlib 
+* mplcursors
 
 ```sh
 pip3 install numpy pandas matplotlib mplcursors
