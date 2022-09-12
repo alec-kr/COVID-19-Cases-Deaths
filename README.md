@@ -19,7 +19,7 @@ pip3 install pandas matplotlib mplcursors
 Windows/Linux/Mac OS:
 
 ```sh
-python3 covid19-analysis
+python3 covid-19-analysis
 ```
 
 You will enter a country of your choice after running the line above
