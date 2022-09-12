@@ -28,3 +28,5 @@ Please Enter a Country: Guyana
 ```
 
 A pyplot window will be opened showing the visualized data (COVID-19 Cases and Deaths)
+
+See the ```py_vis.ipynb``` notebook for an illustration of the executed program. 
