@@ -4,11 +4,12 @@ import mplcursors
  
 # Import data from an online CSV file
 try:
-    df = pd.read_csv(r"https://covid.ourworldindata.org/data/ecdc/full_data.csv")
+    df = pd.read_csv(r"https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/full_data.csv")
 
 # If no connection can be established, run the visualization on an old data set, and notify the user.
 except:
     print("ERROR: The requested CSV may have been moved or deleted. Please visit https://covid.ourworldindata.org to locate a new data source.")
+    df = pd.read_csv(r"https://raw.githubusercontent.com/alec-kr/COVID-19-Cases-Deaths/master/sample_data.csv")
 
 # Gather the cases/deaths for the country
 def get_data(u_input):
