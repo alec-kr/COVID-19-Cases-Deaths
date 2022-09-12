@@ -4,22 +4,22 @@ This Python Project aims to produce a simple line graph using pandas - A python 
 The number of cases and deaths for a chosen country will be displayed.
 
 ## Installation
-Python 3 must be installed prior to running this code.
+```git clone https://github.com/alec-kr/COVID-19-Cases-Deaths.git```
 
 ## Packages Used:
 * pandas
 * Matplotlib
 * mplcursors
 
+NOTE: Python 3 must be installed prior to running this code.
 ```sh
 pip3 install pandas matplotlib mplcursors
 ```
 
 ## Usage
-Windows/Linux/Mac OS:
-
-```sh
-python3 covid-19-analysis
+```
+cd COVID-19-Cases-Deaths
+python3 covid-19-analysis.py
 ```
 
 You will enter a country of your choice after running the line above
