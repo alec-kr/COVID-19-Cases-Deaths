@@ -1,7 +1,6 @@
 # COVID-19 Cases/Deaths Analysis
 
-This Python3 project aims to produce a simple line graph using pandas - A Python data analysis library.
-The number of cases and deaths for a chosen country will be displayed.
+This Python3 project aims to plot the number of COVID-19 cases and deaths for a chosen country, on a simple line graph.
 
 ## Installation
 ```git clone https://github.com/alec-kr/COVID-19-Cases-Deaths.git```
