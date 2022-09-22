@@ -6,9 +6,9 @@ This Python3 project aims to plot the number of COVID-19 cases and deaths for a 
 ```git clone https://github.com/alec-kr/COVID-19-Cases-Deaths.git```
 
 ## Packages Used:
-* pandas
-* Matplotlib
-* mplcursors
+* [pandas](https://pypi.org/project/pandas/)
+* [Matplotlib](https://pypi.org/project/matplotlib/)
+* [mplcursors](https://pypi.org/project/mplcursors/)
 
 NOTE: Python 3 must be installed prior to running this code.
 ```sh
